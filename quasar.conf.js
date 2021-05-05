@@ -10,6 +10,7 @@ const ESLintPlugin = require('eslint-webpack-plugin')
 
 module.exports = function (/* ctx */) {
   return {
+		publicPath: process.env.NODE_ENV === "production" ? "/Quasar-ALXAssignment/" : "/",
     // https://v1.quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
 
