@@ -35,11 +35,12 @@
               </div>
             </div>
             <div >
-              <div class="row header q-mt-xl text-center">          
+              <div class="row header q-mt-xl text-center">
+                <div>
                   <h4>
-                    Study different areas of web design easily in 3 steps:
+                    Study different areas <br />of web design easily <br /> in 3 steps:
                   </h4>
-              
+                </div>
               </div>
 
               <div class="row description justify-center">
