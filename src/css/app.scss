@@ -1,0 +1,121 @@
+// app global css in SCSS form
+
+.container{
+    border-radius: 50px;
+}
+
+.background {
+  background-color: #80C2FF;
+  height: 823px;
+  border-radius: 60px;
+ }
+.control-1 {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50px;
+  width: 13px;
+  height: 13px;
+  
+}
+
+.control-3 {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+.control-2 {
+  background-color: white;
+  border-radius: 50px;
+  width: 24px;
+  height: 13px;
+  border-radius: 6.5px;
+  
+}
+
+.img{
+    width: 50%;
+}
+
+.circle-1 {
+  background: #839EFF;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+}
+
+.circle-2 {
+  background: #839EFF;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  position:relative;
+  left: 2px;
+  top:5px;
+}
+
+.logo {
+  font-family: Montserrat;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.links a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #001A26;
+}
+
+
+.header h4 {
+  font-family: Niramit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 50px;
+  line-height: 130%;
+}
+
+@media(max-width: 450px){
+    .header h4{
+        font-size: 30px;
+        padding-top:0px;
+    }
+}
+
+@media (max-width: 1200px){
+    
+}
+
+.description p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%
+}
+
+.description p span {
+  color: #839EFF;
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
