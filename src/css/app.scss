@@ -6,7 +6,7 @@
 
 .background {
   background-color: #80C2FF;
-  height: 823px;
+  height: 650px;
   border-radius: 60px;
  }
 .control-1 {
@@ -75,6 +75,9 @@
   color: #001A26;
 }
 
+.header {
+  position: relative;
+}
 
 .header h4 {
   font-family: Niramit;
@@ -83,6 +86,9 @@
   font-size: 40px;
   padding-top: 50px;
   line-height: 130%;
+ 
+ 
+
 }
 
 @media(max-width: 450px){

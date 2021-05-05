@@ -5,8 +5,8 @@
 
       <div class="q-pa-md bg-white container">
         <div class="row ">
-          <div class="col">
-            <div class="row justify-center q-pt-lg">
+          <div class="col ">
+            <div class="row justify-center q-pt-xl">
 
               
                 <div class="row">
